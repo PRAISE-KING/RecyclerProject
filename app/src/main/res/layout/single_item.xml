@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:layout_margin=""/>.
+        android:layout_margin="4dp">
 
     <ImageView
         android:id="@+id/image"
@@ -60,13 +60,15 @@
 
     <Button
         android:id="@+id/btnpay"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/productDesc"
         android:layout_marginTop="20dp"
         android:text="Buy Now"
-        android:textAllCaps="false"
-        android:textSize="18sp"/>
+        android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
 
 </androidx.cardview.widget.CardView>
 
